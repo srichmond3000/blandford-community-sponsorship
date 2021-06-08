@@ -1,0 +1,47 @@
+@import 'styles/variables';
+
+.mainNav {
+  a {
+    display: inline-block; /* Force layout to respect vertical margin/padding */
+    text-decoration: none;
+    color: $layout-font-colour;
+    padding: $layout-link-padding;
+    transition: background-color $layout-transition-duration;
+
+    &.active {
+      background-color: $layout-link-hover-colour;
+    }
+
+    &:hover {
+      background-color: $layout-link-hover-colour;
+    }
+  }
+
+  &:nth-child(n + 2) {
+    margin-left: $layout-link-margin;
+  }
+}
+
+.ul {
+  list-style: none;
+
+  .li {
+    a {
+      display: inline-block;
+      text-decoration: none;
+      color: $layout-font-colour;
+      transition: background-color $layout-transition-duration;
+      transition-timing-function: ease-in;
+      margin-bottom: $layout-link-margin;
+      padding: $layout-link-padding;
+
+      &.active {
+        background-color: $layout-link-hover-colour;
+      }
+
+      &:hover {
+        background-color: $layout-link-hover-colour;
+      }
+    }
+  }
+}
