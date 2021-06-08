@@ -12,16 +12,114 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Blandford Welcome Group</h1>
-
-        <p>
-          We're a new group dedicated to helping settle a refugee family in
-          Blandford Form. As of 6th June 2021 this is a new website which we'll
-          be adding content to regularly. Please check back for updates.
-        </p>
+        <header className={styles.header}>
+          <h1 className={styles.title}>Blandford Welcome Group</h1>
+          <h2 className={styles.headerSubText}>- for refugees</h2>
+        </header>
+        <section>
+          <p>
+            We are a group of Dorset residents who are working together to help
+            a refugee family to settle in Blandford and rebuild their lives. The
+            family may come from Syria, or from another conflict zone.
+          </p>
+        </section>
+        <section>
+          <h2 className={styles.subHeading}>How will we do this?</h2>
+          <p>
+            We intend to become part of the government's Community Sponsorship
+            Scheme for refugees and join around 100 other local community groups
+            across the UK working to welcome a family to their town.
+          </p>
+        </section>
+        <section>
+          <h2 className={styles.subHeading}>Why?</h2>
+          <p>
+            Millions of people have been forced to flee from their country to
+            escape war, conflict, famine and abuse. We want to do something to
+            alleviate their plight and to bring hope.
+          </p>
+          <p>
+            Blandford is a caring community and this project will also help
+            transform our own community relationships and our view of the world.
+            There is already one family of Syrian refugees successfully settled
+            in Blandford.
+          </p>
+        </section>
+        <section>
+          <h2 className={styles.subHeading}>What is involved?</h2>
+          <p>As part of the government scheme, we will:</p>
+          <ul>
+            <li className={styles.listItem}>
+              Widen the volunteer team to involve more of the community and
+              produce a clear resettlement plan.
+            </li>
+            <li className={styles.listItem}>
+              Secure local authority consent to resettle the family.
+            </li>
+            <li className={styles.listItem}>
+              Raise £15,000 to pay for language teaching, to meet initial gaps
+              in rent support, to buy clothing, etc.
+            </li>
+            <li className={styles.listItem}>
+              Find suitable housing for the family.
+            </li>
+            <li className={styles.listItem}>
+              Meet the family at the airport and help them to settle into our
+              community.
+            </li>
+            <li className={styles.listItem}>
+              Arrange tuition in English; help with schooling, GP registration,
+              etc.
+            </li>
+            <li className={styles.listItem}>
+              Help the family make finance applications. The sponshorship scheme
+              also entitles the members of the family to five year's full
+              residency rights, after which they may apply for citizenship.
+            </li>
+            <li className={styles.listItem}>
+              Support their independence, self-sufficiency and employment. The
+              experience is that adults in refugee families are extremely keen
+              to find work and to get off benefits when they are fit and able.
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h2 className={styles.subHeading}>Support</h2>
+          <p>
+            The Blandford Welcome Group is supported by{' '}
+            <a href='https://charisrefugees.org'>Charis</a> and{' '}
+            <a href='www.caritas.org'>Caritas</a>, established charities which
+            help refugees and promote charity and justice in the world.
+          </p>
+        </section>
+        <section>
+          <h2 className={styles.subHeading}>How can you help?</h2>
+          <p>
+            By volunteering your experience and skills to help the family in
+            these ways:
+          </p>
+          <ul>
+            <li className={styles.listItem}>
+              Fundraising, assisting at events or joining in, in whatever way
+              you can.
+            </li>
+            <li className={styles.listItem}>
+              Accomodation: do you know of someone who might let to a family on
+              a possibly reduced rent, which would be guaranteed for two years.
+            </li>
+            <li className={styles.listItem}>
+              Helping to teach English and/or to liaise with schools and the
+              medical centre.
+            </li>
+            <li className={styles.listItem}>
+              Arranging familiarisation, social and cultural activities.
+            </li>
+            <li className={styles.listItem}>
+              Or anything else which you think you can contribute
+            </li>
+          </ul>
+        </section>
       </main>
-
-      <footer className={styles.footer}></footer>
     </div>
   );
 }
