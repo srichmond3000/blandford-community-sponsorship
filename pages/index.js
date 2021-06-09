@@ -88,8 +88,9 @@ export default function Home() {
           <p>
             The Blandford Welcome Group is supported by{' '}
             <a href='https://charisrefugees.org'>Charis</a> and{' '}
-            <a href='www.caritas.org'>Caritas</a>, established charities which
-            help refugees and promote charity and justice in the world.
+            <a href='https://www.caritas.org/'>Caritas</a>, established
+            charities which help refugees and promote charity and justice in the
+            world.
           </p>
         </section>
         <section>
