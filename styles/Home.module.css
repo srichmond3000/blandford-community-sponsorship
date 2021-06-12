@@ -18,6 +18,10 @@
   max-width: 900px;
 }
 
+.section {
+  width: 100%;
+}
+
 .header {
   background-color: #37667E;
   color: #fff;
