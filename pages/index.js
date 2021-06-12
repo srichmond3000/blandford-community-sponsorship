@@ -16,14 +16,14 @@ export default function Home() {
           <h1 className={styles.title}>Blandford Welcome Group</h1>
           <h2 className={styles.headerSubText}>- for refugees</h2>
         </header>
-        <section>
+        <section className={styles.section}>
           <p>
             We are a group of Dorset residents who are working together to help
             a refugee family to settle in Blandford and rebuild their lives. The
             family may come from Syria, or from another conflict zone.
           </p>
         </section>
-        <section>
+        <section className={styles.section}>
           <h2 className={styles.subHeading}>How will we do this?</h2>
           <p>
             We intend to become part of the government's Community Sponsorship
@@ -31,7 +31,7 @@ export default function Home() {
             across the UK working to welcome a family to their town.
           </p>
         </section>
-        <section>
+        <section className={styles.section}>
           <h2 className={styles.subHeading}>Why?</h2>
           <p>
             Millions of people have been forced to flee from their country to
@@ -45,7 +45,7 @@ export default function Home() {
             in Blandford.
           </p>
         </section>
-        <section>
+        <section className={styles.section}>
           <h2 className={styles.subHeading}>What is involved?</h2>
           <p>As part of the government scheme, we will:</p>
           <ul>
@@ -83,7 +83,7 @@ export default function Home() {
             </li>
           </ul>
         </section>
-        <section>
+        <section className={styles.section}>
           <h2 className={styles.subHeading}>Support</h2>
           <p>
             The Blandford Welcome Group is supported by{' '}
@@ -93,7 +93,7 @@ export default function Home() {
             world.
           </p>
         </section>
-        <section>
+        <section className={styles.section}>
           <h2 className={styles.subHeading}>How can you help?</h2>
           <p>
             By volunteering your experience and skills to help the family in
@@ -119,6 +119,15 @@ export default function Home() {
               Or anything else which you think you can contribute
             </li>
           </ul>
+        </section>
+        <section className={styles.section}>
+          <h2 className={styles.subHeading}>Contact us</h2>
+          <p>
+            Contact us at{' '}
+            <a href='mailto:info@blandfordwelcome.group?subject=Enquiry from website'>
+              info@blandfordwelcome.group
+            </a>
+          </p>
         </section>
       </main>
     </div>
