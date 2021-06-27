@@ -1,5 +1,13 @@
+import ActiveLink from './activeLink';
+
 const Nav = () => {
-  return <h3>Navigation menu</h3>;
+  return (
+    <nav>
+      <ActiveLink href='/'>
+        <a>Home</a>
+      </ActiveLink>
+    </nav>
+  );
 };
 
 export default Nav;

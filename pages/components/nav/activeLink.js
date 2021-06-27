@@ -1,6 +1,7 @@
+import React from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import styles from './nav.modules.scss';
+import styles from './nav.module.scss';
 
 const ActiveLink = ({ href, children }) => {
   const { pathname } = useRouter();
