@@ -1,8 +1,9 @@
 import ActiveLink from './activeLink';
+import styles from './nav.module.scss';
 
 const Nav = () => {
   return (
-    <nav>
+    <nav className={styles.nav}>
       <ActiveLink href='/'>
         <a>Home</a>
       </ActiveLink>
@@ -24,6 +25,9 @@ const Nav = () => {
       <ActiveLink href='/contact'>
         <a>Contact</a>
       </ActiveLink>
+      <a className='icon'>
+        <i className='fa fa-bars'></i>
+      </a>
     </nav>
   );
 };
