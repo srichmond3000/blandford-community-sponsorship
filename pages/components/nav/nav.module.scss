@@ -17,6 +17,10 @@
     &:hover {
       background-color: $layout-link-hover-colour;
     }
+
+    &.icon {
+      display: none;
+    }
   }
 
   &:nth-child(n + 2) {
@@ -27,7 +31,23 @@
 @media screen and (max-width: 680px) {
   .nav {
     a {
+      display: none;
+
+      &.icon {
+        display: block;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .nav.responsive {
+    a {
       display: block;
+
+      &.icon {
+        display: block;
+      }
     }
   }
 }

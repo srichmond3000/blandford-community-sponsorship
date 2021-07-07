@@ -1,4 +1,5 @@
 import ActiveLink from './activeLink';
+import Hamburger from './hamburger';
 import styles from './nav.module.scss';
 
 const Nav = () => {
@@ -25,9 +26,7 @@ const Nav = () => {
       <ActiveLink href='/contact'>
         <a>Contact</a>
       </ActiveLink>
-      <a className='icon'>
-        <i className='fa fa-bars'></i>
-      </a>
+      <Hamburger />
     </nav>
   );
 };
