@@ -1,7 +1,7 @@
 import styles from './nav.module.scss';
 
-const Hamburger = () => (
-  <a className={styles.icon}>
+const Hamburger = ({ handleClick }) => (
+  <a className={styles.icon} onClick={handleClick}>
     <i className='fa fa-bars'></i>
   </a>
 );

@@ -1,10 +1,22 @@
+import { useState } from 'react';
 import ActiveLink from './activeLink';
 import Hamburger from './hamburger';
 import styles from './nav.module.scss';
 
 const Nav = () => {
+  const [expandMenu, setExpandMenu] = useState(false);
+
+  const toggleMenu = () => {
+    setExpandMenu(!expandMenu);
+  };
+
+  let navClass = expandMenu
+    ? `${styles.nav} ${styles.responsive}`
+    : `${styles.nav}`;
+
   return (
-    <nav className={styles.nav}>
+    <nav className={navClass}>
+      <Hamburger handleClick={toggleMenu} />
       <ActiveLink href='/'>
         <a>Home</a>
       </ActiveLink>
@@ -26,7 +38,6 @@ const Nav = () => {
       <ActiveLink href='/contact'>
         <a>Contact</a>
       </ActiveLink>
-      <Hamburger />
     </nav>
   );
 };
