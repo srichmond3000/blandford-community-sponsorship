@@ -3,8 +3,10 @@ import Nav from './nav/nav';
 const Header = () => {
   return (
     <>
-      <h1>Header</h1>
-      <Nav></Nav>
+      <header className='header'>
+        <h1>Header</h1>
+        <Nav />
+      </header>
     </>
   );
 };
