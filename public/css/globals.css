@@ -19,6 +19,9 @@ body {
     "header"
     "main"
     "footer";
+  grid-template-rows: auto 1fr 5em;
+  height: 100vh;
+  padding: 0 0.5em 0 0.5em;
 }
 
 .header {
