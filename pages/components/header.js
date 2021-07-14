@@ -1,10 +1,11 @@
 import Nav from './nav/nav';
+import TitleArea from './titleArea';
 
 const Header = () => {
   return (
     <>
       <header className='header'>
-        <h1>Header</h1>
+        <TitleArea />
         <Nav />
       </header>
     </>
