@@ -1,11 +1,8 @@
-import Image from 'next/image';
-//import mainLogo from './../../public/images/main-logo.png';
-
 const TitleArea = () => (
-  <>
-    <Image src='/images/other.jpg' alt='the logo' width={851} height={761} />
-    <h1>Title</h1>
-  </>
+  <div className='title-area'>
+    <h1>Blandford Welcome Group</h1>
+    <h2>- for refugees</h2>
+  </div>
 );
 
 export default TitleArea;

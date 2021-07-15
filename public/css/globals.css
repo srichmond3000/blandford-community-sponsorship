@@ -35,3 +35,11 @@ body {
 .footer {
   grid-area: footer;
 }
+
+.title-area {
+  text-align: center;
+}
+
+.title-area > h2 {
+  font-style: italic;
+}
