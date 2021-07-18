@@ -121,6 +121,33 @@ export default function Home() {
           </ul>
         </section>
         <section className={styles.section}>
+          <h2 className={styles.subHeading}>Barbecue - Sunday 15th August</h2>
+          <p>
+            There will be a barbecue at Blandford Catholic Church on Sun 15th
+            Aug to raise funds. There will also be a bottle stall (tombola),
+            plant stall, raffle and the draw for the Parish Sweepstake. The
+            bottle stall will comprise wine, spirits and soft drinks, together
+            with non-drink bottles such as shampoo, sauces etc. We are looking
+            for donations for both the bottle stall, the plant stall and the
+            raffle, so if you have bottles or a plant you would be kind enough
+            to donate or a nice prize for the raffle, please put them aside and
+            we will make arrangements for them to be stored in the Church Hall
+            in the weeks leading up to the event
+          </p>
+          <p>
+            Contact us at{' '}
+            <a href='mailto:info@blandfordwelcome.group?subject=Enquiry from website'>
+              info@blandfordwelcome.group
+            </a>{' '}
+            for tickets
+          </p>
+          <p>Ticket prices:</p>
+          <ul>
+            <li>Adults - £10</li>
+            <li>Child (under 18) - £5. Third and subsequent children free.</li>
+          </ul>
+        </section>
+        <section className={styles.section}>
           <h2 className={styles.subHeading}>Contact us</h2>
           <p>
             Contact us at{' '}
