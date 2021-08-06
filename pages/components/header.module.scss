@@ -1,0 +1,20 @@
+.wrapper {
+  display: grid;
+  grid-template-areas:
+    'logo title'
+    'nav nav';
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto;
+}
+
+.logoArea {
+  grid-area: logo;
+}
+
+.titleArea {
+  grid-area: title;
+}
+
+.navArea {
+  grid-area: nav;
+}
