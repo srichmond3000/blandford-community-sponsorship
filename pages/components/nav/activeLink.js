@@ -1,18 +1,24 @@
-import React from 'react';
-import Link from 'next/link';
 import { useRouter } from 'next/router';
 import styles from './nav.module.scss';
 
-const ActiveLink = ({ href, children }) => {
-  const { pathname } = useRouter();
+const ActiveLink = ({ children, href, onNav }) => {
+  const router = useRouter();
 
-  let className = children.props.className || '';
+  const handleClick = (e) => {
+    e.preventDefault();
+    if (typeof onNav === 'function') {
+      onNav();
+    }
+    router.push(href);
+  };
 
-  if (pathname === href) {
-    className = styles.active;
-  }
+  const className = router.asPath === href ? `${styles.active}` : '';
 
-  return <Link href={href}>{React.cloneElement(children, { className })}</Link>;
+  return (
+    <a href={href} onClick={handleClick} className={className}>
+      {children}
+    </a>
+  );
 };
 
 export default ActiveLink;
