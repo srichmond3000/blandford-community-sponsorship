@@ -4,17 +4,30 @@
     'logo title'
     'nav nav';
   grid-template-rows: auto auto;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto 1fr;
+
+  .logoArea {
+    grid-area: logo;
+  }
+
+  .titleArea {
+    grid-area: title;
+  }
+
+  .navArea {
+    grid-area: nav;
+  }
 }
 
-.logoArea {
-  grid-area: logo;
-}
+@media screen and (max-width: 570px) {
+  .wrapper {
+    grid-template-areas:
+      'title'
+      'nav';
+    grid-template-columns: 1fr;
 
-.titleArea {
-  grid-area: title;
-}
-
-.navArea {
-  grid-area: nav;
+    .logoArea {
+      display: none;
+    }
+  }
 }
