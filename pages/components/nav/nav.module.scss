@@ -7,8 +7,9 @@
     display: inline-block; /* Force layout to respect vertical margin/padding */
     text-decoration: none;
     color: $layout-font-colour;
-    padding: $layout-link-padding;
+    padding: 0.75em;
     transition: background-color $layout-transition-duration;
+    font-size: 1rem;
 
     &.active {
       background-color: $layout-link-hover-colour;
@@ -33,16 +34,11 @@
         display: block;
       }
     }
-  }
-}
 
-@media screen and (max-width: 840px) {
-  .nav.responsive {
-    a {
-      display: block;
-
-      &.icon {
+    &.responsive {
+      a {
         display: block;
+        padding: 0.45em 0.75em;
       }
     }
   }
