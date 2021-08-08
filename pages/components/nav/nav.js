@@ -18,25 +18,25 @@ const Nav = () => {
     <nav className={navClass}>
       <Hamburger handleClick={toggleMenu} />
       <ActiveLink href='/' onNav={toggleMenu}>
-        <a>Home</a>
+        <span>Home</span>
       </ActiveLink>
       <ActiveLink href='/about' onNav={toggleMenu}>
-        <a>About</a>
+        <span>About</span>
       </ActiveLink>
       <ActiveLink href='/news' onNav={toggleMenu}>
-        <a>News</a>
+        <span>News</span>
       </ActiveLink>
       <ActiveLink href='/events' onNav={toggleMenu}>
-        <a>Events</a>
+        <span>Events</span>
       </ActiveLink>
       <ActiveLink href='/volunteer' onNav={toggleMenu}>
-        <a>Get Involved</a>
+        <span>Get Involved</span>
       </ActiveLink>
       <ActiveLink href='/donate' onNav={toggleMenu}>
-        <a>Donate</a>
+        <span>Donate</span>
       </ActiveLink>
       <ActiveLink href='/contact' onNav={toggleMenu}>
-        <a>Contact</a>
+        <span>Contact</span>
       </ActiveLink>
     </nav>
   );
