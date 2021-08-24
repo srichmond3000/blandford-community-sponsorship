@@ -1,6 +1,18 @@
 .footerContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 0.5em;
+  display: grid;
+  grid-template-areas:
+    'name'
+    'contact';
+  grid-template-rows: auto auto;
+}
+
+.name {
+  grid-area: name;
+  justify-self: center;
+  margin-top: 2em;
+}
+
+.contact {
+  grid-area: contact;
+  justify-self: center;
 }

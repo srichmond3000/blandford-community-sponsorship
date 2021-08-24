@@ -3,13 +3,12 @@ import styles from './footer.module.scss';
 const Footer = () => {
   return (
     <div className={styles.footerContainer}>
-      <p>Blandford Welcome Group</p>
-      <p>
-        &nbsp;
+      <span className={styles.name}>Blandford Welcome Group</span>
+      <span className={styles.contact}>
         <a href='mailto:info@blandfordwelcome.group?subject=Enquiry from website'>
           info@blandfordwelcome.group
         </a>
-      </p>
+      </span>
     </div>
   );
 };

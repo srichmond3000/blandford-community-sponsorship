@@ -1,9 +1,9 @@
 import Layout from './components/layout';
 
-export default function About() {
+export default function Faq() {
   return (
     <Layout title='About'>
-      <p>About BWG.</p>
+      <p>Frequently Asked Questions</p>
     </Layout>
   );
 }

@@ -1,9 +1,9 @@
 import Layout from './components/layout';
 
-export default function News() {
+export default function Privacy() {
   return (
     <Layout title='News'>
-      <p>News</p>
+      <p>Privacy policy</p>
     </Layout>
   );
 }

@@ -20,12 +20,6 @@ const Nav = () => {
       <ActiveLink href='/' onNav={toggleMenu}>
         <span>Home</span>
       </ActiveLink>
-      <ActiveLink href='/about' onNav={toggleMenu}>
-        <span>About</span>
-      </ActiveLink>
-      <ActiveLink href='/news' onNav={toggleMenu}>
-        <span>News</span>
-      </ActiveLink>
       <ActiveLink href='/events' onNav={toggleMenu}>
         <span>Events</span>
       </ActiveLink>
@@ -34,6 +28,12 @@ const Nav = () => {
       </ActiveLink>
       <ActiveLink href='/donate' onNav={toggleMenu}>
         <span>Donate</span>
+      </ActiveLink>
+      <ActiveLink href='/faq' onNav={toggleMenu}>
+        <span>FAQ</span>
+      </ActiveLink>
+      <ActiveLink href='/privacy' onNav={toggleMenu}>
+        <span>Privacy policy</span>
       </ActiveLink>
       <ActiveLink href='/contact' onNav={toggleMenu}>
         <span>Contact</span>
