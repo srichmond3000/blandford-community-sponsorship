@@ -1,8 +1,16 @@
+import styles from './footer.module.scss';
+
 const Footer = () => {
   return (
-    <footer className='footer'>
-      <h2>Footer</h2>
-    </footer>
+    <div className={styles.footerContainer}>
+      <p>Blandford Welcome Group</p>
+      <p>
+        &nbsp;
+        <a href='mailto:info@blandfordwelcome.group?subject=Enquiry from website'>
+          info@blandfordwelcome.group
+        </a>
+      </p>
+    </div>
   );
 };
 

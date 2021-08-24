@@ -13,7 +13,9 @@ export default function Layout({ children, title = 'Default title' }) {
       </Head>
       <Header />
       <div className='main'>{children}</div>
-      <Footer />
+      <div className='footer'>
+        <Footer />
+      </div>
     </div>
   );
 }
