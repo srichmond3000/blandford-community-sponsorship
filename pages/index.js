@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Layout from './components/layout';
 
 export default function Home() {
@@ -48,19 +49,25 @@ export default function Home() {
         </p>
         <p>
           Our group is made up of people from all walks of life from Blandford
-          and the surrounding area. Our lead sponsor is{' '}
+          and the surrounding area. We would love to welcome volunteers from
+          across the entire community.
+        </p>
+        <p>
+          The BWG is supported and assisted by{' '}
           <a href='https://www.plymouth-diocese.org.uk/caritas'>
             Caritas Plymouth
           </a>
-          , the helping hand of the Catholic Church. We would love to welcome
-          volunteers from across the entire community. The BWG is supported and
-          assisted by{' '}
-          <a href='https://www.plymouth-diocese.org.uk/caritas'>
-            Caritas Plymouth
-          </a>{' '}
-          and <a href='https://charisrefugees.org/'>Charis</a>, established
+          , which is our lead sponsor, and{' '}
+          <a href='https://charisrefugees.org/'>Charis</a>, established
           charities which help refugees and promote charity and justice in the
-          world. For more information, visit the FAQ page [LINK TO FAQ PAGE].
+          world.
+        </p>
+        <p>
+          For more information, visit the{' '}
+          <Link href='/faq'>
+            <a>FAQ page</a>
+          </Link>
+          .
         </p>
       </section>
     </Layout>

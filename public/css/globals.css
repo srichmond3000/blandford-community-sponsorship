@@ -37,3 +37,7 @@ body {
 .footer {
   grid-area: footer;
 }
+
+.main h2 {
+  color: hsl(152, 100%, 33%);
+}

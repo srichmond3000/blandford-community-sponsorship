@@ -32,9 +32,6 @@ const Nav = () => {
       <ActiveLink href='/faq' onNav={toggleMenu}>
         <span>FAQ</span>
       </ActiveLink>
-      <ActiveLink href='/privacy' onNav={toggleMenu}>
-        <span>Privacy policy</span>
-      </ActiveLink>
       <ActiveLink href='/contact' onNav={toggleMenu}>
         <span>Contact</span>
       </ActiveLink>

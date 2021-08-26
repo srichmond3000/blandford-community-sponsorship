@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from './footer.module.scss';
 
 const Footer = () => {
@@ -8,6 +9,10 @@ const Footer = () => {
         <a href='mailto:info@blandfordwelcome.group?subject=Enquiry from website'>
           info@blandfordwelcome.group
         </a>
+        &nbsp;|&nbsp;
+        <Link href='/privacy'>
+          <a>Privacy policy</a>
+        </Link>
       </span>
     </div>
   );
