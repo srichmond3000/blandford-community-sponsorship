@@ -42,6 +42,16 @@ export default function Faq() {
           the sole use of the BWG.
         </p>
       </section>
+      <section>
+        <h2>How can I cancel monthly sponsorship?</h2>
+        <p>
+          You can do this at any time. To cancel your regular donation, please
+          follow the cancellation link which you will find on your monthly
+          donation receipt. Alternatively, you can reply to the receipt email
+          and ask for your monthly sponsorship to be cancelled and Give A Little
+          will do it for you.
+        </p>
+      </section>
     </Layout>
   );
 }
