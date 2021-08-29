@@ -43,6 +43,10 @@ body {
   a {
     color: $layout-background-colour;
     font-weight: bold;
+
+    &:hover {
+      color: $purple;
+    }
   }
 
   li {
@@ -57,5 +61,9 @@ body {
 
   a {
     color: #fff;
+
+    &:hover {
+      color: $purple;
+    }
   }
 }

@@ -1,8 +1,9 @@
 @import '../public/css/variables';
 
 .buttonContainer {
-  margin: 2em auto;
-  width: 30%;
+  display: flex;
+  justify-content: center;
+  padding: 2em;
 
   .button {
     border: solid 2px $layout-background-colour;
@@ -14,9 +15,9 @@
     font-size: 2rem;
 
     &:hover {
-      background-color: $layout-link-hover-colour;
-      background-color: #fff;
-      color: $layout-background-colour;
+      background-color: $purple;
+      color: #fff;
+      border-color: $purple;
     }
   }
 }
