@@ -4,15 +4,16 @@
     'name'
     'contact';
   grid-template-rows: auto auto;
-}
 
-.name {
-  grid-area: name;
-  justify-self: center;
-  margin-top: 2em;
-}
+  .name {
+    grid-area: name;
+    justify-self: center;
+    margin-top: 1.5em;
+  }
 
-.contact {
-  grid-area: contact;
-  justify-self: center;
+  .lower {
+    margin-top: 0.25em;
+    grid-area: contact;
+    justify-self: center;
+  }
 }

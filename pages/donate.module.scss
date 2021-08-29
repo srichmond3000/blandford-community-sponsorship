@@ -1,0 +1,22 @@
+@import '../public/css/variables';
+
+.buttonContainer {
+  margin: 2em auto;
+  width: 30%;
+
+  .button {
+    border: solid 2px $layout-background-colour;
+    border-radius: 0.25em;
+    background-color: $layout-background-colour;
+    color: #fff;
+    padding: 0.25em 1em;
+    text-decoration: none;
+    font-size: 2rem;
+
+    &:hover {
+      background-color: $layout-link-hover-colour;
+      background-color: #fff;
+      color: $layout-background-colour;
+    }
+  }
+}

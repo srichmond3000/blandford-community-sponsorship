@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Layout from './components/layout';
+import styles from './donate.module.scss';
 
 export default function Donate() {
   return (
@@ -8,11 +9,16 @@ export default function Donate() {
         <h2>Make a donation and help us to support a displaced family</h2>
         <p>
           To make a one-time donation or to sign up for regular sponsorship
-          (which you can cancel or amend at any time),{' '}
-          <a href='https://givealittle.co/campaigns/accd22da-915c-4783-9181-205993d98bfe'>
-            please follow this link
-          </a>
-          .
+          (which you can cancel or amend at any time) please click the Donate
+          button.
+          <div className={styles.buttonContainer}>
+            <a
+              href='https://givealittle.co/campaigns/accd22da-915c-4783-9181-205993d98bfe'
+              className={styles.button}
+            >
+              Donate
+            </a>
+          </div>
         </p>
         <p>
           If you are a UK taxpayer, we will also be able to claim 25% Gift Aid

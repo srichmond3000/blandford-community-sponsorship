@@ -1,3 +1,5 @@
+@import './variables';
+
 html {
   box-sizing: border-box;
   overflow-y: scroll;
@@ -16,10 +18,10 @@ body {
 
 .container {
   display: grid;
-  grid-template-areas: 
-    "header"
-    "main"
-    "footer";
+  grid-template-areas:
+    'header'
+    'main'
+    'footer';
   grid-template-rows: auto 1fr 5em;
   height: 100vh;
   padding: 0 0.5em 0 0.5em;
@@ -33,12 +35,27 @@ body {
 
 .main {
   grid-area: main;
+
+  h2 {
+    color: $layout-background-colour;
+  }
+
+  a {
+    color: $layout-background-colour;
+    font-weight: bold;
+  }
+
+  li {
+    margin-top: 0.25em;
+  }
 }
 
 .footer {
   grid-area: footer;
-}
+  background-color: $layout-background-colour;
+  color: #fff;
 
-.main h2 {
-  color: hsl(152, 100%, 33%);
+  a {
+    color: #fff;
+  }
 }
