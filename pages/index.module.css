@@ -1,0 +1,14 @@
+.withBackground{
+  background-image: url('../public/images/bridge-opt.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 150px;
+}
+
+@media screen and (min-width: 600px) {
+  .withBackground {
+    background-image: url('../public/images/bridge.jpg');
+    height: 450px;
+  }
+}

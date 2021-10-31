@@ -1,16 +1,16 @@
 import Link from 'next/link';
 import Layout from './components/layout';
+import styles from './index.module.css';
 
 export default function Home() {
   return (
     <Layout title='Home page'>
-      <section>
-        <p>
-          The Blandford Welcome Group (BWG) is a group of local residents who
-          are working together to help a refugee family to settle in Blandford
-          and rebuild their lives. The family may come from any conflict zone.
-        </p>
-      </section>
+      <p>
+        The Blandford Welcome Group (BWG) is a group of local residents who are
+        working together to help a refugee family to settle in Blandford and
+        rebuild their lives. The family may come from any conflict zone.
+      </p>
+      <section className={styles.withBackground}></section>
       <section>
         <h2>How will we do this?</h2>
         <p>
