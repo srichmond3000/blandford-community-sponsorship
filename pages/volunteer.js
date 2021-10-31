@@ -3,7 +3,7 @@ import Layout from './components/layout';
 
 export default function Volunteer() {
   return (
-    <Layout title='Volunteer page'>
+    <Layout title='BWG - Get Involved'>
       <h2>All volunteers are welcome</h2>
       <p>
         Everyone is very welcome to help, in whatever way you can, for just a

@@ -3,7 +3,7 @@ import Layout from './components/layout';
 
 export default function Faq() {
   return (
-    <Layout title='FAQ'>
+    <Layout title='BWG - FAQ'>
       <section>
         <h2>How much money does a community sponsor group have to raise?</h2>
         <p>

@@ -4,7 +4,7 @@ import styles from './index.module.css';
 
 export default function Home() {
   return (
-    <Layout title='Home page'>
+    <Layout title='BWG - Home'>
       <p>
         The Blandford Welcome Group (BWG) is a group of local residents who are
         working together to help a refugee family to settle in Blandford and

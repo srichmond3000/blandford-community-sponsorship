@@ -2,7 +2,7 @@ import Layout from './components/layout';
 
 export default function Events() {
   return (
-    <Layout title='Events page'>
+    <Layout title='BWG - Events'>
       <p>
         The BWG hosted a very successful BBQ in the garden of the Blandford
         Catholic Church (Our Lady of Lourdes and St Cecilia) on August 15, 2021.

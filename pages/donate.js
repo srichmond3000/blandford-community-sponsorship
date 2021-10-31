@@ -4,7 +4,7 @@ import styles from './donate.module.scss';
 
 export default function Donate() {
   return (
-    <Layout title='Donate page'>
+    <Layout title='BWG - Donate'>
       <section>
         <h2>Make a donation and help us to support a displaced family</h2>
         <p>
