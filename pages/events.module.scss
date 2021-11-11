@@ -1,0 +1,9 @@
+@import '../public/css/variables';
+
+h2.pastEventsHeading {
+  color: hsl(0, 0%, 0%);
+}
+
+.pastEvents {
+  color: $layout-background-colour;
+}
