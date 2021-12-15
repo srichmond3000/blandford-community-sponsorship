@@ -52,6 +52,16 @@ export default function Faq() {
           will do it for you.
         </p>
       </section>
+      <section>
+        <h2>What happens to the funds raised if BWG closes prematurely?</h2>
+        <p>
+          In the unlikely event that the BWG is unable to bring a refugee family
+          to Dorset, and has to close, then all funds raised will still be used
+          to help the resettlement of a refugee family, albeit not in Blandford.
+          The monies raised will be transferred to another Community Sponsorship
+          project, preferably somewhere else in the south-west.{' '}
+        </p>
+      </section>
     </Layout>
   );
 }
