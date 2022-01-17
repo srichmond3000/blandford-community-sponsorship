@@ -4,13 +4,17 @@ import styles from './events.module.scss';
 export default function Events() {
   return (
     <Layout title='BWG - Events'>
-      <h2>
-        Quiz Evening, provisionally planned for Saturday February 12, 2022
-      </h2>
+      <h2>Quiz Evening Saturday February 5th, 2022</h2>
       <p>
-        It is planned to hold a fun Quiz Evening, with light supper provided, at
-        the Blandford Parish Community Centre (Galilee Hall, The Plocks,
-        Blandford Forum DT11 7DW)
+        Friends, family and fellow parishioners are most welcome. As well as
+        raising funds for the cause, these evenings are always good fun and
+        there will be a nominal prize for the winning team! Entry is £10 per
+        link, with payment via{' '}
+        <a href='https://givealittle.co/campaigns/accd22da-915c-4783-9181-205993d98bfe'>
+          Blandford Welcome Group - Give A Little
+        </a>
+        . This will generate an e-mail receipt which should then be forwarded to
+        aprwas@hotmail.com and we will forward you a Zoom link to join the quiz.
       </p>
 
       <h2>Film Screenings</h2>
