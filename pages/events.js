@@ -4,7 +4,7 @@ import styles from './events.module.scss';
 export default function Events() {
   return (
     <Layout title='BWG - Events'>
-      <h2>Quiz Evening Saturday February 5th, 2022</h2>
+      <h2>Quiz Evening 7.30pm Saturday February 5th, 2022</h2>
       <p>
         Friends, family and fellow parishioners are most welcome. As well as
         raising funds for the cause, these evenings are always good fun and
