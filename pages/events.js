@@ -17,14 +17,36 @@ export default function Events() {
         aprwas@hotmail.com and we will forward you a Zoom link to join the quiz.
       </p>
 
-      <h2>Film Screenings</h2>
+      <h2>
+        Film Screenings: <i>Notting Hill</i> on March 9th and{' '}
+        <i>Pleasure at Her Majesty's</i> on April 8th
+      </h2>
       <p>
-        Planning is under way to screen several famous and highly enjoyable
-        comedies, beginning with Notting Hill, starring Julia Roberts and Hugh
-        Grant, at a venue in Blandford. The screening will include a short talk
-        by Duncan Kenworthy, one of Britain&apos;s most successful film
-        producers, who was also responsible for Four Weddings and a Funeral, and
-        Love Actually. Details will be announced later.
+        We are very pleased to announce that we will be screening the highly
+        enjoyable romantic comedy,{' '}
+        <strong>
+          <i>Notting Hill</i>
+        </strong>{' '}
+        (124 minutes, certificate PG13), at 6 pm on <strong>March 9th</strong>,
+        at Blandford School. The film will be preceded by a talk by the
+        producer, Duncan Kenworthy, one of the UK&apos;s most eminent
+        film-makers, who lives locally.
+      </p>
+      <p>
+        Tickets will soon be on sale (details to be announced) for £10 per seat.
+        Advance purchasing will be necessary. All proceeds go to help the
+        refugee family settle in Blandford.
+      </p>
+      <p>
+        The second film planned is{' '}
+        <strong>
+          <i>Pleasure at Her Majesty&apos;s</i>
+        </strong>{' '}
+        (74 minutes), a brilliantly funny series of famous comic sketches from
+        Monty Python, the Goodies, Beyond the Fringe, Peter Cook - filmed live
+        at a ground-breaking theatre performance in 1976. The film will be
+        preceded by a talk by the director, Roger Graef, who also lives locally.
+        This will be on <strong>April 8th</strong>, also at Blandford School.
       </p>
 
       <h2 className={styles.pastEventsHeading}>Past events</h2>

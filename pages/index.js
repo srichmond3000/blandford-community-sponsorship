@@ -8,7 +8,9 @@ export default function Home() {
       <p>
         The Blandford Welcome Group (BWG) is a group of local residents who are
         working together to help a refugee family to settle in Blandford and
-        rebuild their lives. The family may come from any conflict zone.
+        rebuild their lives. The family will be classified as highly vulnerable,
+        and will come from a UN Refugee Camp near a conflict zone, probably
+        originating from Syria. They will not be illegal immigrants.
       </p>
       <section className={styles.withBackground}></section>
       <section>
