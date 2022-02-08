@@ -4,52 +4,68 @@ import styles from './events.module.scss';
 export default function Events() {
   return (
     <Layout title='BWG - Events'>
-      <h2>Quiz Evening 7.30pm Saturday February 5th, 2022</h2>
-      <p>
-        Friends, family and fellow parishioners are most welcome. As well as
-        raising funds for the cause, these evenings are always good fun and
-        there will be a nominal prize for the winning team! Entry is £10 per
-        link, with payment via{' '}
-        <a href='https://givealittle.co/campaigns/accd22da-915c-4783-9181-205993d98bfe'>
-          Blandford Welcome Group - Give A Little
-        </a>
-        . This will generate an e-mail receipt which should then be forwarded to
-        aprwas@hotmail.com and we will forward you a Zoom link to join the quiz.
-      </p>
-
       <h2>
-        Film Screenings: <i>Notting Hill</i> on March 9th and{' '}
-        <i>Pleasure at Her Majesty's</i> on April 8th
+        Film Screenings: <i>Notting Hill</i> on March 9th
       </h2>
       <p>
-        We are very pleased to announce that we will be screening the highly
-        enjoyable romantic comedy,{' '}
-        <strong>
+        <b>
+          <i>
+            Enjoy a heart-warming and fascinating evening, and contribute to a
+            good cause.
+          </i>
+        </b>
+      </p>
+      <p>
+        The BWG will be screening the highly enjoyable romantic comedy,{' '}
+        <b>
           <i>Notting Hill</i>
-        </strong>{' '}
-        (124 minutes, certificate PG13), at 6 pm on <strong>March 9th</strong>,
-        at Blandford School. The film will be preceded by a talk by the
-        producer, Duncan Kenworthy, one of the UK&apos;s most eminent
-        film-makers, who lives locally.
+        </b>{' '}
+        (124 minutes, certificate PG13), on{' '}
+        <b>March 9th, at Blandford School</b> (doors open from 6.45, film starts
+        at 7.15). Uniquely, the evening includes a short introduction and
+        Q&amp;A afterwards with the film’s producer, <b>Duncan Kenworthy</b>,
+        one of the UK's most successful film-makers of the past 30 years,
+        responsible also for <i>Four Weddings and a Funeral, Love Actually</i>{' '}
+        and <i>The Children Act</i>.
       </p>
       <p>
-        Tickets will soon be on sale (details to be announced) for £10 per seat.
-        Advance purchasing will be necessary. All proceeds go to help the
-        refugee family settle in Blandford.
+        TICKETS are £10 per person, with all funds raised going to the Blandford
+        Welcome Group (BWG). Either purchase online by following this link{' '}
+        <a href='https://www.ticketsource.co.uk/blandford-welcome-group'>
+          Ticket Shop
+        </a>
       </p>
       <p>
-        The second film planned is{' '}
-        <strong>
-          <i>Pleasure at Her Majesty&apos;s</i>
-        </strong>{' '}
+        Or buy in-person, for cash, from <i>The Blandford School</i> (reception
+        desk), Milldown Road, Blandford DT11 0SQ OR from{' '}
+        <i>Hambledon Gallery</i>, 44 Salisbury Street, Blandford, DT11 7PR
+      </p>
+      <p>
+        The second film is{' '}
+        <b>
+          <i>Pleasure at Her Majesty's</i>
+        </b>{' '}
         (74 minutes), a brilliantly funny series of famous comic sketches from
-        Monty Python, the Goodies, Beyond the Fringe, Peter Cook - filmed live
-        at a ground-breaking theatre performance in 1976. The film will be
-        preceded by a talk by the director, Roger Graef, who also lives locally.
-        This will be on <strong>April 8th</strong>, also at Blandford School.
+        Monty Python, the Goodies and Beyond the Fringe - filmed live at a
+        ground-breaking theatre performance in 1976. The evening includes a
+        short introduction and Q&amp;A afterwards with the film’s director,{' '}
+        <b>Roger Graef</b>. This will be on <b>April 8th</b>, also at Blandford
+        School.
+      </p>
+      <p>
+        The third film is not yet finalised. Tickets are only available at
+        present for{' '}
+        <b>
+          <i>Notting Hill</i>
+        </b>
+        .
       </p>
 
       <h2 className={styles.pastEventsHeading}>Past events</h2>
+      <h3 className={styles.pastEvents}>
+        Quiz Evening 7.30pm Saturday February 5th, 2022
+      </h3>
+      <p>We had a very successful online quiz night.</p>
       <h3 className={styles.pastEvents}>
         Blandford Yuletide Festival - Friday 3 December
       </h3>
