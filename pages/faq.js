@@ -41,6 +41,11 @@ export default function Faq() {
           account but will be in a separate facility and will be ringfenced for
           the sole use of the BWG.
         </p>
+        <p>
+          The BWG is part of the Diocese of Plymouth charity, registered with
+          the Charity Commission in England and Wales: charity number is 213227;
+          registered address is St Boniface House, Ashburton, Devon TQ13 7JL.
+        </p>
       </section>
       <section>
         <h2>How can I cancel monthly sponsorship?</h2>
