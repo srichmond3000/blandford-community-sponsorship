@@ -23,14 +23,29 @@ export default function Events() {
         (124 minutes, certificate PG13), on{' '}
         <b>March 9th, at Blandford School</b> (doors open from 6.45, film starts
         at 7.15). Uniquely, the evening includes a short introduction and
-        Q&amp;A afterwards with the film’s producer, <b>Duncan Kenworthy</b>,
-        one of the UK's most successful film-makers of the past 30 years,
-        responsible also for <i>Four Weddings and a Funeral, Love Actually</i>{' '}
-        and <i>The Children Act</i>.
+        Q&amp;A afterwards with the film&apos;s producer,{' '}
+        <b>Duncan Kenworthy</b>, one of the UK&apos;s most successful
+        film-makers of the past 30 years, responsible also for{' '}
+        <i>Four Weddings and a Funeral, Love Actually</i> and{' '}
+        <i>The Children Act</i>.
       </p>
       <p>
-        TICKETS are £10 per person, with all funds raised going to the Blandford
-        Welcome Group (BWG). Either purchase online by following this link{' '}
+        The second film is{' '}
+        <b>
+          <i>Pleasure at Her Majesty&apos;s</i>
+        </b>{' '}
+        (U; 1976; 74 mins), a brilliantly funny series of famous comic sketches
+        from Monty Python, the Goodies and Beyond the Fringe and others - filmed
+        live at a ground-breaking theatre performance in 1976. The evening
+        includes a short introduction and Q&amp;A afterwards with the
+        film&apos;s director, <b>Roger Graef</b>. This will be on{' '}
+        <b>March 9th, at Blandford School</b>, DT11 0SQ (doors open from 6.45,
+        film starts at 7.15).
+      </p>
+      <p>
+        TICKETS for each film are £10 per person, with all funds raised going to
+        the Blandford Welcome Group (BWG). Either <b>purchase online</b> by
+        following this link{' '}
         <a href='https://www.ticketsource.co.uk/blandford-welcome-group'>
           Ticket Shop
         </a>
@@ -40,26 +55,7 @@ export default function Events() {
         desk), Milldown Road, Blandford DT11 0SQ OR from{' '}
         <i>Hambledon Gallery</i>, 44 Salisbury Street, Blandford, DT11 7PR
       </p>
-      <p>
-        The second film is{' '}
-        <b>
-          <i>Pleasure at Her Majesty's</i>
-        </b>{' '}
-        (74 minutes), a brilliantly funny series of famous comic sketches from
-        Monty Python, the Goodies and Beyond the Fringe - filmed live at a
-        ground-breaking theatre performance in 1976. The evening includes a
-        short introduction and Q&amp;A afterwards with the film’s director,{' '}
-        <b>Roger Graef</b>. This will be on <b>April 8th</b>, also at Blandford
-        School.
-      </p>
-      <p>
-        The third film is not yet finalised. Tickets are only available at
-        present for{' '}
-        <b>
-          <i>Notting Hill</i>
-        </b>
-        .
-      </p>
+      <p>Later films are not yet finalised.</p>
 
       <h2 className={styles.pastEventsHeading}>Past events</h2>
       <h3 className={styles.pastEvents}>
