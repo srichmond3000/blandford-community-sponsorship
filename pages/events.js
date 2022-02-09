@@ -5,12 +5,13 @@ export default function Events() {
   return (
     <Layout title='BWG - Events'>
       <h2>
-        Film Screenings: <i>Notting Hill</i> on March 9th
+        Film Screenings: <i>Notting Hill</i> on March 9th and{' '}
+        <i>Pleasure at Her Majesty&apos;s</i> on April 8th
       </h2>
       <p>
         <b>
           <i>
-            Enjoy a heart-warming and fascinating evening, and contribute to a
+            Enjoy heart-warming and fascinating evenings, and contribute to a
             good cause.
           </i>
         </b>
@@ -20,7 +21,7 @@ export default function Events() {
         <b>
           <i>Notting Hill</i>
         </b>{' '}
-        (124 minutes, certificate PG13), on{' '}
+        (124 minutes, certificate PG12A), on{' '}
         <b>March 9th, at Blandford School</b> (doors open from 6.45, film starts
         at 7.15). Uniquely, the evening includes a short introduction and
         Q&amp;A afterwards with the film&apos;s producer,{' '}
