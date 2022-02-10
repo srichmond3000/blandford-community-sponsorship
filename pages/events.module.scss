@@ -26,18 +26,40 @@ h2.pastEventsHeading {
       margin-bottom: 0.9em;
 
       a {
-        background-color: hsl(152, 100%, 33%);
-        color: hsl(0, 100%, 100%);
-        text-decoration: none;
-        padding: 0.4em 0.5em;
-        border: solid 2px hsl(0, 100%, 100%);
-        border-radius: 0.4em;
-        transition: 0.5s;
+        &.button {
+          background-color: hsl(152, 100%, 33%);
+          color: hsl(0, 100%, 100%);
+          text-decoration: none;
+          padding: 0.4em 0.5em;
+          border: solid 2px hsl(0, 100%, 100%);
+          border-radius: 0.4em;
+          transition: 0.5s;
 
-        &:hover {
-          background-color: hsl(0, 100%, 100%);
-          color: hsl(152, 100%, 33%);
+          &:hover {
+            background-color: hsl(0, 100%, 100%);
+            color: hsl(152, 100%, 33%);
+            border: solid 2px hsl(152, 100%, 33%);
+            border-radius: 0.4em;
+          }
+        }
+      }
+    }
+
+    li:not(:first-child) {
+      a {
+        &.mapLink {
+          color: hsl(0, 100%, 100%);
+          padding-left: 0.2em;
+          padding-right: 0.2em;
           border: solid 2px hsl(152, 100%, 33%);
+          transition: 0.5s;
+
+          &:hover {
+            background-color: hsl(0, 100%, 100%);
+            color: hsl(152, 100%, 33%);
+            border: solid 2px hsl(0, 100%, 100%);
+            border-radius: 0.2em;
+          }
         }
       }
     }
