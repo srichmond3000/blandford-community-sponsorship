@@ -22,8 +22,13 @@ h2.pastEventsHeading {
   ul {
     list-style-type: none;
 
+    .or {
+      display: block;
+      margin-bottom: 0.3em;
+    }
+
     li:first-child {
-      margin-bottom: 0.9em;
+      margin-bottom: 1.2em;
 
       a {
         &.button {
@@ -65,7 +70,7 @@ h2.pastEventsHeading {
     }
 
     li:not(:first-child):not(:last-child) {
-      margin-bottom: 0.5em;
+      margin-bottom: 0.8em;
     }
   }
 }

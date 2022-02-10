@@ -40,7 +40,7 @@ export default function Events() {
         (doors open from 6.45, film starts at 7.15).
       </p>
       <section className={styles.tickets}>
-        Tickets (£10 each) available from:
+        Tickets (£10 each) for either/both films available from:
         <ul>
           <li>
             <a
@@ -51,6 +51,7 @@ export default function Events() {
             </a>
           </li>
           <li>
+            <span className={styles.or}>OR buy in-person for cash from</span>
             <i>The Blandford School</i> (reception desk), Milldown Road,
             Blandford DT11 7SQ{' '}
             <a
@@ -61,6 +62,7 @@ export default function Events() {
             </a>
           </li>
           <li>
+            <span className={styles.or}>OR from</span>
             <i>Hambledon Gallery</i>, 44 Salisbury Street, Blandford, DT11 7PR{' '}
             <a
               href='https://goo.gl/maps/mpNEPBVeoBLJ3fnD7'
