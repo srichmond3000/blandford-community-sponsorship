@@ -18,13 +18,10 @@ export default function Events() {
       </p>
       <p>
         The BWG will be screening the highly enjoyable romantic comedy,{' '}
-        <b>
-          <i>Notting Hill</i>
-        </b>{' '}
-        (124 minutes, certificate PG12A), on{' '}
-        <b>March 9th, at Blandford School</b> (doors open from 6.45, film starts
-        at 7.15). Uniquely, the evening includes a short introduction and
-        Q&amp;A afterwards with the film&apos;s producer,{' '}
+        <strong className={styles.name}>Notting Hill</strong> (124 minutes,
+        certificate PG12A), on <b>March 9th, at Blandford School</b> (doors open
+        from 6.45, film starts at 7.15). Uniquely, the evening includes a short
+        introduction and Q&amp;A afterwards with the film&apos;s producer,{' '}
         <b>Duncan Kenworthy</b>, one of the UK&apos;s most successful
         film-makers of the past 30 years, responsible also for{' '}
         <i>Four Weddings and a Funeral, Love Actually</i> and{' '}
@@ -32,9 +29,7 @@ export default function Events() {
       </p>
       <p>
         The second film is{' '}
-        <b>
-          <i>Pleasure at Her Majesty&apos;s</i>
-        </b>{' '}
+        <strong className={styles.name}>Pleasure at Her Majesty&apos;s</strong>{' '}
         (U; 1976; 74 mins), a brilliantly funny series of famous comic sketches
         from Monty Python, the Goodies and Beyond the Fringe and others - filmed
         live at a ground-breaking theatre performance in 1976. The evening
@@ -48,7 +43,7 @@ export default function Events() {
         the Blandford Welcome Group (BWG). Either <b>purchase online</b> by
         following this link{' '}
         <a href='https://www.ticketsource.co.uk/blandford-welcome-group'>
-          Ticket Shop
+          TICKET SHOP
         </a>
       </p>
       <p>
