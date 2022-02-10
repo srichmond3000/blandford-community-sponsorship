@@ -12,3 +12,38 @@ h2.pastEventsHeading {
   font-weight: 700;
   color: hsl(32, 100%, 33%);
 }
+
+.tickets {
+  background-color: hsl(152, 100%, 33%);
+  color: hsl(100, 100%, 100%);
+  padding: 0.9em;
+  border-radius: 0.2em;
+
+  ul {
+    list-style-type: none;
+
+    li:first-child {
+      margin-bottom: 0.9em;
+
+      a {
+        background-color: hsl(152, 100%, 33%);
+        color: hsl(0, 100%, 100%);
+        text-decoration: none;
+        padding: 0.4em 0.5em;
+        border: solid 2px hsl(0, 100%, 100%);
+        border-radius: 0.4em;
+        transition: 0.5s;
+
+        &:hover {
+          background-color: hsl(0, 100%, 100%);
+          color: hsl(152, 100%, 33%);
+          border: solid 2px hsl(152, 100%, 33%);
+        }
+      }
+    }
+
+    li:not(:first-child):not(:last-child) {
+      margin-bottom: 0.5em;
+    }
+  }
+}

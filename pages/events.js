@@ -38,19 +38,24 @@ export default function Events() {
         <b>March 9th, at Blandford School</b>, DT11 0SQ (doors open from 6.45,
         film starts at 7.15).
       </p>
-      <p>
-        TICKETS for each film are £10 per person, with all funds raised going to
-        the Blandford Welcome Group (BWG). Either <b>purchase online</b> by
-        following this link{' '}
-        <a href='https://www.ticketsource.co.uk/blandford-welcome-group'>
-          TICKET SHOP
-        </a>
-      </p>
-      <p>
-        Or buy in-person, for cash, from <i>The Blandford School</i> (reception
-        desk), Milldown Road, Blandford DT11 0SQ OR from{' '}
-        <i>Hambledon Gallery</i>, 44 Salisbury Street, Blandford, DT11 7PR
-      </p>
+      <section className={styles.tickets}>
+        Tickets (£10 each) available from:
+        <ul>
+          <li>
+            <a href='https://www.ticketsource.co.uk/blandford-welcome-group'>
+              Online
+            </a>
+          </li>
+          <li>
+            <i>The Blandford School</i> (reception desk), Milldown Road,
+            Blandford DT11 0SQ
+          </li>
+          <li>
+            <i>Hambledon Gallery</i>, 44 Salisbury Street, Blandford, DT11 7PR
+          </li>
+        </ul>
+        <span>All funds raised will go to the Blandford Welcome Group (BWG).</span>
+      </section>
       <p>Later films are not yet finalised.</p>
 
       <h2 className={styles.pastEventsHeading}>Past events</h2>
