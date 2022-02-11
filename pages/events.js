@@ -1,4 +1,6 @@
+import Image from 'next/image';
 import Layout from './components/layout';
+import ImageDescription from './components/imageDescription';
 import styles from './events.module.scss';
 
 export default function Events() {
@@ -16,29 +18,52 @@ export default function Events() {
           </i>
         </b>
       </p>
-      <p>
-        The BWG will be screening the highly enjoyable romantic comedy,{' '}
-        <strong className={styles.name}>Notting Hill</strong> (124 minutes,
-        certificate PG12A), on <b>March 9th, at Blandford School</b> (doors open
-        from 6.45, film starts at 7.15). Uniquely, the evening includes a short
-        introduction and Q&amp;A afterwards with the film&apos;s producer,{' '}
-        <b>Duncan Kenworthy</b>, one of the UK&apos;s most successful
-        film-makers of the past 30 years, responsible also for{' '}
-        <i>Four Weddings and a Funeral, Love Actually</i> and{' '}
-        <i>The Children Act</i>.
-      </p>
-      <p>
-        The second film is{' '}
-        <strong className={styles.name}>Pleasure at Her Majesty&apos;s</strong>{' '}
-        (U; 1976; 74 mins), a brilliantly funny series of famous comic sketches
-        from Monty Python, the Goodies and Beyond the Fringe and others - filmed
-        live at a ground-breaking theatre performance in 1976. The evening
-        includes a short introduction and Q&amp;A afterwards with the
-        film&apos;s director, <b>Roger Graef</b>. This will be on{' '}
-        <b>March 9th, at Blandford School</b> (
-        <a href='https://goo.gl/maps/qeEcXRvSf4JZozhm6'>map</a>), DT11 7SQ
-        (doors open from 6.45, film starts at 7.15).
-      </p>
+      <section className={styles.filmsContainer}>
+        <div className={styles.filmImageNotting}>
+          <Image
+            src='/images/NottingHill.jpg'
+            alt='Logo'
+            width={260}
+            height={387}
+            priority={true}
+          />
+        </div>
+        <div className={styles.filmDescriptionNotting}>
+          The BWG will be screening the highly enjoyable romantic comedy,{' '}
+          <strong className={styles.name}>Notting Hill</strong> (124 minutes,
+          certificate PG12A), on <b>March 9th, at Blandford School</b> (doors
+          open from 6.45, film starts at 7.15) (
+          <a href='https://goo.gl/maps/qeEcXRvSf4JZozhm6'>map</a>). Uniquely,
+          the evening includes a short introduction and Q&amp;A afterwards with
+          the film&apos;s producer, <b>Duncan Kenworthy</b>, one of the
+          UK&apos;s most successful film-makers of the past 30 years,
+          responsible also for <i>Four Weddings and a Funeral, Love Actually</i>{' '}
+          and <i>The Children Act</i>.
+        </div>
+        <div className={styles.filmImageMonty}>
+          <Image
+            src='/images/MontyPython.png'
+            alt='Logo'
+            width={358}
+            height={378}
+            priority={true}
+          />
+        </div>
+        <div className={styles.filmDescriptionMonty}>
+          The second film is{' '}
+          <strong className={styles.name}>
+            Pleasure at Her Majesty&apos;s
+          </strong>{' '}
+          (U; 1976; 74 mins), a brilliantly funny series of famous comic
+          sketches from Monty Python, the Goodies and Beyond the Fringe and
+          others - filmed live at a ground-breaking theatre performance in 1976.
+          The evening includes a short introduction and Q&amp;A afterwards with
+          the film&apos;s director, <b>Roger Graef</b>. This will be on{' '}
+          <b>March 9th, at Blandford School</b> (
+          <a href='https://goo.gl/maps/qeEcXRvSf4JZozhm6'>map</a>), DT11 7SQ
+          (doors open from 6.45, film starts at 7.15).
+        </div>
+      </section>
       <section className={styles.tickets}>
         Tickets (£10 each) for either/both films available from:
         <ul>
