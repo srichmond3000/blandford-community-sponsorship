@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import Layout from './components/layout';
-import ImageDescription from './components/imageDescription';
 import styles from './events.module.scss';
 
 export default function Events() {
