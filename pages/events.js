@@ -31,7 +31,7 @@ export default function Events() {
           The BWG will be screening the highly enjoyable romantic comedy,{' '}
           <strong className={styles.name}>Notting Hill</strong> (124 minutes,
           certificate PG12A), on <b>March 9th, at Blandford School</b> (doors
-          open from 6.45, film starts at 7.15) (
+          open from 6.30, film starts at 7.00) (
           <a href='https://goo.gl/maps/qeEcXRvSf4JZozhm6'>map</a>). Uniquely,
           the evening includes a short introduction and Q&amp;A afterwards with
           the film&apos;s producer, <b>Duncan Kenworthy</b>, one of the
@@ -60,7 +60,7 @@ export default function Events() {
           the film&apos;s director, <b>Roger Graef</b>. This will be on{' '}
           <b>March 9th, at Blandford School</b> (
           <a href='https://goo.gl/maps/qeEcXRvSf4JZozhm6'>map</a>), DT11 7SQ
-          (doors open from 6.45, film starts at 7.15).
+          (doors open from 6.30, film starts at 7.00).
         </div>
       </section>
       <section className={styles.tickets}>
@@ -100,6 +100,7 @@ export default function Events() {
           All funds raised will go to the Blandford Welcome Group (BWG).
         </span>
       </section>
+      <p>You may like to bring a cushion to sit on.</p>
       <p>Later films are not yet finalised.</p>
 
       <h2 className={styles.pastEventsHeading}>Past events</h2>
