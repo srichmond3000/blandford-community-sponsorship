@@ -15,27 +15,39 @@ const Nav = () => {
     : `${styles.nav}`;
 
   return (
-    <nav className={navClass}>
-      <Hamburger handleClick={toggleMenu} />
-      <ActiveLink href='/' onNav={toggleMenu}>
-        <span>Home</span>
-      </ActiveLink>
-      <ActiveLink href='/events' onNav={toggleMenu}>
-        <span>Events</span>
-      </ActiveLink>
-      <ActiveLink href='/volunteer' onNav={toggleMenu}>
-        <span>Get Involved</span>
-      </ActiveLink>
-      <ActiveLink href='/donate' onNav={toggleMenu}>
-        <span>Donate</span>
-      </ActiveLink>
-      <ActiveLink href='/faq' onNav={toggleMenu}>
-        <span>FAQ</span>
-      </ActiveLink>
-      <ActiveLink href='/contact' onNav={toggleMenu}>
-        <span>Contact</span>
-      </ActiveLink>
-    </nav>
+    <div className={styles.menuContainer}>
+      <div className={styles.navContainer}>
+        <nav className={navClass}>
+          <Hamburger handleClick={toggleMenu} />
+          <ActiveLink href='/' onNav={toggleMenu}>
+            <span>Home</span>
+          </ActiveLink>
+          <ActiveLink href='/events' onNav={toggleMenu}>
+            <span>Events</span>
+          </ActiveLink>
+          <ActiveLink href='/volunteer' onNav={toggleMenu}>
+            <span>Get Involved</span>
+          </ActiveLink>
+          <ActiveLink href='/donate' onNav={toggleMenu}>
+            <span>Donate</span>
+          </ActiveLink>
+          <ActiveLink href='/faq' onNav={toggleMenu}>
+            <span>FAQ</span>
+          </ActiveLink>
+          <ActiveLink href='/contact' onNav={toggleMenu}>
+            <span>Contact</span>
+          </ActiveLink>
+        </nav>
+      </div>
+      <div className={styles.ctaContainer}>
+        <a
+          href='https://www.ticketsource.co.uk/blandford-welcome-group'
+          className={styles.button}
+        >
+          Buy film tickets
+        </a>
+      </div>
+    </div>
   );
 };
 
