@@ -58,7 +58,7 @@ export default function Events() {
           others - filmed live at a ground-breaking theatre performance in 1976.
           The evening includes a short introduction and Q&amp;A afterwards with
           the film&apos;s director, <b>Roger Graef</b>. This will be on{' '}
-          <b>March 9th, at Blandford School</b> (
+          <b>April 8th, at Blandford School</b> (
           <a href='https://goo.gl/maps/qeEcXRvSf4JZozhm6'>map</a>), DT11 7SQ
           (doors open from 6.30, film starts at 7.00).
         </div>
