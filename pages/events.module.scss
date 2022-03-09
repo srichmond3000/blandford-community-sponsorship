@@ -12,7 +12,8 @@ h2.pastEventsHeading {
   display: grid;
   grid-template-areas:
     'imageA descriptionA descriptionA descriptionA'
-    'descriptionB descriptionB descriptionB imageB';
+    'descriptionB descriptionB descriptionB imageB'
+    'imageC descriptionC descriptionC descriptionC';
   grid-template-rows: auto auto auto auto;
   column-gap: 0.8em;
   row-gap: 0.8em;
@@ -38,6 +39,19 @@ h2.pastEventsHeading {
 
   .filmDescriptionMonty {
     grid-area: descriptionB;
+
+    .name {
+      font-weight: 700;
+      color: hsl(32, 100%, 33%);
+    }
+  }
+
+  .filmImageRambow {
+    grid-area: imageC;
+  }
+
+  .filmDescriptionRambow {
+    grid-area: descriptionC;
 
     .name {
       font-weight: 700;
