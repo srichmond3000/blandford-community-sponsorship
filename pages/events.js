@@ -49,22 +49,48 @@ export default function Events() {
           />
         </div>
         <div className={styles.filmDescriptionMonty}>
-          The second film is{' '}
+          On <strong>April 8th</strong>, the BWG is screening{' '}
           <strong className={styles.name}>
             Pleasure at Her Majesty&apos;s
           </strong>{' '}
           (U; 1976; 74 mins), a brilliantly funny series of famous comic
           sketches from Monty Python, the Goodies and Beyond the Fringe and
           others - filmed live at a ground-breaking theatre performance in 1976.
-          The evening includes a short introduction and Q&amp;A afterwards with
-          the film&apos;s director, <b>Roger Graef</b>. This will be on{' '}
-          <b>April 8th, at Blandford School</b> (
+          This will be shown at <strong>Blandford School</strong> (
           <a href='https://goo.gl/maps/qeEcXRvSf4JZozhm6'>map</a>), DT11 7SQ
-          (doors open from 6.30, film starts at 7.00).
+          (doors open from 6.15, film starts at 7.00).
+        </div>
+        <div className={styles.filmImageRambow}>
+          <Image
+            src='/images/SonOfRambow.jpg'
+            alt='Logo'
+            width={300}
+            height={444}
+            priority={true}
+          />
+        </div>
+        <div className={styles.filmDescriptionRambow}>
+          <strong>Special comedy for families and the young at heart</strong>:
+          on May 10th we are showing{' '}
+          <strong className={styles.name}>Son of Rambow</strong> (12; 91 mins),
+          which is a hilariously fresh take on friendship, family and film
+          heroes. <i>Son of Rambow</i> is the story of two young boys who, after
+          watching Sylvester Stallone in action in <i>First Blood</i>, the first
+          Rambo film, decide that they will make their own home movie version in
+          the wilds of Berkhamstead. The film won the{' '}
+          <strong className={styles.name}>Empire Award for Best Comedy</strong>,
+          as well as other high praise. Unusually, the evening concludes with a
+          short introduction and Q&amp;A afterwards with the film&apos;s
+          producer,
+          <strong>Nick Goldsmith</strong>. This will be shown at{' '}
+          <strong>Blandford School</strong> (
+          <a href='https://goo.gl/maps/qeEcXRvSf4JZozhm6'>map</a>), DT11 7SQ
+          (doors open from 6.15, film starts at 7.00).
         </div>
       </section>
       <section className={styles.tickets}>
-        Tickets (£10 each) for either/both films available from:
+        Tickets for all films are £10 each - or £5 for those aged under 19 or
+        over 65. Available from:
         <ul>
           <li>
             <a
@@ -100,8 +126,6 @@ export default function Events() {
           All funds raised will go to the Blandford Welcome Group (BWG).
         </span>
       </section>
-      <p>You may like to bring a cushion to sit on.</p>
-      <p>Later films are not yet finalised.</p>
 
       <h2 className={styles.pastEventsHeading}>Past events</h2>
       <h3 className={styles.pastEvents}>
