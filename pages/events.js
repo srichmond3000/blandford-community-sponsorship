@@ -6,8 +6,8 @@ export default function Events() {
   return (
     <Layout title='BWG - Events'>
       <h2>
-        Film Screenings: <i>Notting Hill</i> on March 9th and{' '}
-        <i>Pleasure at Her Majesty&apos;s</i> on April 8th
+        Film Screenings: <i>Pleasure at Her Majesty&apos;s</i> on April 8th and{' '}
+        <i>Son of Rambow</i> on May 10th
       </h2>
       <p>
         <b>
@@ -18,27 +18,6 @@ export default function Events() {
         </b>
       </p>
       <section className={styles.filmsContainer}>
-        <div className={styles.filmImageNotting}>
-          <Image
-            src='/images/NottingHill.jpg'
-            alt='Logo'
-            width={260}
-            height={387}
-            priority={true}
-          />
-        </div>
-        <div className={styles.filmDescriptionNotting}>
-          The BWG will be screening the highly enjoyable romantic comedy,{' '}
-          <strong className={styles.name}>Notting Hill</strong> (124 minutes,
-          certificate PG12A), on <b>March 9th, at Blandford School</b> (doors
-          open from 6.30, film starts at 7.00) (
-          <a href='https://goo.gl/maps/qeEcXRvSf4JZozhm6'>map</a>). Uniquely,
-          the evening includes a short introduction and Q&amp;A afterwards with
-          the film&apos;s producer, <b>Duncan Kenworthy</b>, one of the
-          UK&apos;s most successful film-makers of the past 30 years,
-          responsible also for <i>Four Weddings and a Funeral, Love Actually</i>{' '}
-          and <i>The Children Act</i>.
-        </div>
         <div className={styles.filmImageMonty}>
           <Image
             src='/images/MontyPython.png'
@@ -128,6 +107,13 @@ export default function Events() {
       </section>
 
       <h2 className={styles.pastEventsHeading}>Past events</h2>
+      <h3 className={styles.pastEvents}>
+        Film Screenings - <i>Notting Hill</i>
+      </h3>
+      <p>
+        The BWG screened the film <i>Notting Hill</i>, followed by Q&amp;A with
+        its distinguished producer, Duncan Kenworthy, on March 9, 2022.
+      </p>
       <h3 className={styles.pastEvents}>
         Quiz Evening 7.30pm Saturday February 5th, 2022
       </h3>
