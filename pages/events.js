@@ -37,7 +37,10 @@ export default function Events() {
           others - filmed live at a ground-breaking theatre performance in 1976.
           This will be shown at <strong>Blandford School</strong> (
           <a href='https://goo.gl/maps/qeEcXRvSf4JZozhm6'>map</a>), DT11 7SQ
-          (doors open from 6.15, film starts at 7.00).
+          (doors open from 6.15, film starts at 7.15).{' '}
+          <strong>
+            A welcome drink and Syrian snacks will be served from 6.15.
+          </strong>
         </div>
         <div className={styles.filmImageRambow}>
           <Image
