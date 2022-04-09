@@ -6,8 +6,7 @@ export default function Events() {
   return (
     <Layout title='BWG - Events'>
       <h2>
-        Film Screenings: <i>Pleasure at Her Majesty&apos;s</i> on April 8th and{' '}
-        <i>Son of Rambow</i> on May 10th
+        Film Screenings: <i>Son of Rambow</i> on May 10th
       </h2>
       <p>
         <b>
@@ -18,30 +17,6 @@ export default function Events() {
         </b>
       </p>
       <section className={styles.filmsContainer}>
-        <div className={styles.filmImageMonty}>
-          <Image
-            src='/images/MontyPython.png'
-            alt='Logo'
-            width={358}
-            height={378}
-            priority={true}
-          />
-        </div>
-        <div className={styles.filmDescriptionMonty}>
-          On <strong>April 8th</strong>, the BWG is screening{' '}
-          <strong className={styles.name}>
-            Pleasure at Her Majesty&apos;s
-          </strong>{' '}
-          (U; 1976; 74 mins), a brilliantly funny series of famous comic
-          sketches from Monty Python, the Goodies and Beyond the Fringe and
-          others - filmed live at a ground-breaking theatre performance in 1976.
-          This will be shown at <strong>Blandford School</strong> (
-          <a href='https://goo.gl/maps/qeEcXRvSf4JZozhm6'>map</a>), DT11 7SQ
-          (doors open from 6.15, film starts at 7.15).{' '}
-          <strong>
-            A welcome drink and Syrian snacks will be served from 6.15.
-          </strong>
-        </div>
         <div className={styles.filmImageRambow}>
           <Image
             src='/images/SonOfRambow.jpg'
@@ -61,9 +36,9 @@ export default function Events() {
           Rambo film, decide that they will make their own home movie version in
           the wilds of Berkhamstead. The film won the{' '}
           <strong className={styles.name}>Empire Award for Best Comedy</strong>,
-          as well as other high praise. Unusually, the evening concludes with a
-          short introduction and Q&amp;A afterwards with the film&apos;s
-          producer,
+          as well as other high praise. Unusually, the evening commences with a
+          short introduction and concludes with a Q&amp;A afterwards with the
+          film&apos;s producer,
           <strong>Nick Goldsmith</strong>. This will be shown at{' '}
           <strong>Blandford School</strong> (
           <a href='https://goo.gl/maps/qeEcXRvSf4JZozhm6'>map</a>), DT11 7SQ
@@ -71,8 +46,8 @@ export default function Events() {
         </div>
       </section>
       <section className={styles.tickets}>
-        Tickets for all films are £10 each - or £5 for those aged under 19 or
-        over 65. Available from:
+        Tickets are £10 each - or £5 for those aged under 19 or over 65.
+        Available from:
         <ul>
           <li>
             <a
@@ -110,6 +85,14 @@ export default function Events() {
       </section>
 
       <h2 className={styles.pastEventsHeading}>Past events</h2>
+      <h3 className={styles.pastEvents}>
+        Film Screenings - <i>Pleasure at Her Majesty's</i>
+      </h3>
+      <p>
+        On April 8, the BWG screened the film <i>Pleasure at Her Majesty's</i>,
+        followed by a fascinating Q&amp;A with Susan Richards, wife of Roger
+        Graef, the director of the film, who sadly died in March.
+      </p>
       <h3 className={styles.pastEvents}>
         Film Screenings - <i>Notting Hill</i>
       </h3>
