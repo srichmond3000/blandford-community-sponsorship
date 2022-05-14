@@ -39,14 +39,6 @@ const Nav = () => {
           </ActiveLink>
         </nav>
       </div>
-      <div className={styles.ctaContainer}>
-        <a
-          href='https://www.ticketsource.co.uk/blandford-welcome-group'
-          className={styles.button}
-        >
-          Buy film tickets
-        </a>
-      </div>
     </div>
   );
 };

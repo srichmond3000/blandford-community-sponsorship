@@ -5,86 +5,14 @@ import styles from './events.module.scss';
 export default function Events() {
   return (
     <Layout title='BWG - Events'>
-      <h2>
-        Film Screenings: <i>Son of Rambow</i> on May 10th
-      </h2>
-      <p>
-        <b>
-          <i>
-            Enjoy heart-warming and fascinating evenings, and contribute to a
-            good cause.
-          </i>
-        </b>
-      </p>
-      <section className={styles.filmsContainer}>
-        <div className={styles.filmImageRambow}>
-          <Image
-            src='/images/SonOfRambow.jpg'
-            alt='Logo'
-            width={300}
-            height={444}
-            priority={true}
-          />
-        </div>
-        <div className={styles.filmDescriptionRambow}>
-          <strong>Special comedy for families and the young at heart</strong>:
-          on May 10th we are showing{' '}
-          <strong className={styles.name}>Son of Rambow</strong> (12; 91 mins),
-          which is a hilariously fresh take on friendship, family and film
-          heroes. <i>Son of Rambow</i> is the story of two young boys who, after
-          watching Sylvester Stallone in action in <i>First Blood</i>, the first
-          Rambo film, decide that they will make their own home movie version in
-          the wilds of Berkhamstead. The film won the{' '}
-          <strong className={styles.name}>Empire Award for Best Comedy</strong>,
-          as well as other high praise. Unusually, the evening commences with a
-          short introduction and concludes with a Q&amp;A afterwards with the
-          film&apos;s producer,
-          <strong>Nick Goldsmith</strong>. This will be shown at{' '}
-          <strong>Blandford School</strong> (
-          <a href='https://goo.gl/maps/qeEcXRvSf4JZozhm6'>map</a>), DT11 7SQ
-          (doors open from 6.15, film starts at 7.00).
-        </div>
-      </section>
-      <section className={styles.tickets}>
-        Tickets are £10 each - or £5 for those aged under 19 or over 65.
-        Available from:
-        <ul>
-          <li>
-            <a
-              href='https://www.ticketsource.co.uk/blandford-welcome-group'
-              className={styles.button}
-            >
-              Online
-            </a>
-          </li>
-          <li>
-            <span className={styles.or}>OR buy in-person for cash from</span>
-            <i>The Blandford School</i> (reception desk), Milldown Road,
-            Blandford DT11 7SQ{' '}
-            <a
-              href='https://goo.gl/maps/qeEcXRvSf4JZozhm6'
-              className={styles.mapLink}
-            >
-              map
-            </a>
-          </li>
-          <li>
-            <span className={styles.or}>OR from</span>
-            <i>Hambledon Gallery</i>, 44 Salisbury Street, Blandford, DT11 7PR{' '}
-            <a
-              href='https://goo.gl/maps/mpNEPBVeoBLJ3fnD7'
-              className={styles.mapLink}
-            >
-              map
-            </a>
-          </li>
-        </ul>
-        <span>
-          All funds raised will go to the Blandford Welcome Group (BWG).
-        </span>
-      </section>
-
       <h2 className={styles.pastEventsHeading}>Past events</h2>
+      <h3 className={styles.pastEvents}>
+        Film Screenings - <i>Son of Rambow</i>
+      </h3>
+      <p>
+        The BWG screened the film <i>Son of Rambow</i>, followed by Q&amp;A with
+        its producer, Nick Goldsmith, on May 10th, 2022.
+      </p>
       <h3 className={styles.pastEvents}>
         Film Screenings - <i>Pleasure at Her Majesty's</i>
       </h3>
