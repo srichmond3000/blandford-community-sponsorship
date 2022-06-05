@@ -44,7 +44,7 @@ const Nav = () => {
           href='https://www.ticketsource.co.uk/blandford-welcome-group'
           className={styles.button}
         >
-          Buy concert tickets
+          Buy Event Tickets
         </a>
       </div>
     </div>
