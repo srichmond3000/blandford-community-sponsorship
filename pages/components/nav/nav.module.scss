@@ -2,7 +2,7 @@
 
 .menuContainer {
   display: grid;
-  grid-template-areas: 'nav';
+  grid-template-areas: 'nav cta';
   background-color: $layout-background-colour;
 
   .nav {
@@ -45,6 +45,28 @@
           display: block;
           padding: 0.45em 0.75em;
         }
+      }
+    }
+  }
+
+  .ctaContainer {
+    grid-area: cta;
+    justify-self: end;
+    color: $layout-font-colour;
+    padding: 0.75em;
+
+    .button {
+      text-decoration: none;
+      color: $layout-font-colour;
+      background-color: red;
+      padding: 0.2em 1em;
+      border-radius: 1em;
+      font-weight: 700;
+      transition: 0.3s;
+
+      &:hover {
+        color: red;
+        background-color: $layout-font-colour;
       }
     }
   }
