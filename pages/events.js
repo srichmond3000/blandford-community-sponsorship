@@ -41,7 +41,7 @@ export default function Events() {
       </p>
       <p>
         Please email your willingness to participate by emailing{' '}
-        <a href='mailto:info@blandfordwelcome.group'>
+        <a href='mailto:info@blandfordwelcome.group?subject=Fundraising%20with%20Art'>
           info@blandfordwelcome.group
         </a>{' '}
         with your name, address and phone number. Note that the deadline for
