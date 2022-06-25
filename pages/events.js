@@ -24,6 +24,30 @@ export default function Events() {
         from One Republic, the Beatles, Delius, John Rutter, madrigals, songs by
         south west composers, and contributions from local poets.
       </p>
+      <h2>Fundraising with Art</h2>
+      <p>
+        The Blandford Welcome Group invites artists (professional and amateur)
+        to donate a painting or small work of art, around 15-30cm (6"-12") in a
+        mount, for a special exhibition in September (date to be announced).
+        Raffle tickets to match the number of paintings and works of art donated
+        will be sold in advance. Raffle ticket holders and donors will be
+        invited for an evening where a lucky dip will decide which painting they
+        take home.
+      </p>
+      <p>
+        Thank you for supporting this exciting fundraising initiative. It well
+        result in an enjoyable social event with friends, family, wine &amp;
+        nibbles, and the certainty of a beautiful piece of art to own and enjoy.
+      </p>
+      <p>
+        Please email your willingness to participate by emailing{' '}
+        <a href='mailto:info@blandfordwelcome.group'>
+          info@blandfordwelcome.group
+        </a>{' '}
+        with your name, address and phone number. Note that the deadline for
+        submissions is 15th July 2022.
+      </p>
+
       <h2 className={styles.pastEventsHeading}>Past events</h2>
       <h3 className={styles.pastEvents}>
         Film Screenings: <i>Son of Rambow</i>
