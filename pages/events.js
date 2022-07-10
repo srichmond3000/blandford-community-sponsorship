@@ -5,25 +5,6 @@ import styles from './events.module.scss';
 export default function Events() {
   return (
     <Layout title='BWG - Events'>
-      <h2>Choral Concert</h2>
-      <p>
-        1st July at 7.30pm (doors open 7 pm) in St Nicholas Church, Durweston,
-        DT11 0QA (<a href='https://goo.gl/maps/iFrJofjb3SDZS8CH7'>map</a>), with
-        drinks and snacks in the interval. Purchase tickets £10 for adults or £5
-        for children online via the link above or in person from event
-        organisers.{' '}
-      </p>
-      <p>
-        A delightful choral concert from Palida, conducted by Karen Wimhurst.
-        Palida is a well known Shaftesbury-based acappella choir. See{' '}
-        <a href='https://www.palidachoir.com'>www.palidachoir.com</a>.
-      </p>
-      <p>
-        The evening&apos;s programme opens with the well-known jazz standard,
-        &apos;Paper Moon&apos;. The concert then features a diversity of styles
-        from One Republic, the Beatles, Delius, John Rutter, madrigals, songs by
-        south west composers, and contributions from local poets.
-      </p>
       <h2>Fundraising with Art</h2>
       <p>
         The Blandford Welcome Group invites artists (professional and amateur)
@@ -49,6 +30,14 @@ export default function Events() {
       </p>
 
       <h2 className={styles.pastEventsHeading}>Past events</h2>
+
+      <h3 className={styles.pastEvents}>Choral Concert</h3>
+      <p>
+        The BWG hosted a delightful choral concert with the Shaftesbury-based
+        acappella choir <a href='https://www.palidachoir.com'>Palida</a>,
+        conducted by Karen Wimhurst, on 1st July 2022 at St Nicholas Church,
+        Durweston
+      </p>
       <h3 className={styles.pastEvents}>
         Film Screenings: <i>Son of Rambow</i>
       </h3>
