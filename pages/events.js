@@ -5,34 +5,10 @@ import styles from './events.module.scss';
 export default function Events() {
   return (
     <Layout title='BWG - Events'>
-      <h2>
-        Take home a beautiful piece of art - enjoy a good social evening - and
-        contribute to supporting a refugee family
-      </h2>
-      <p>
-        You are warmly invited to take part in the Blandford Welcome
-        Group&apos;s fundraising initiative to support a refugee family from a
-        UN Refugee camp to come to live and settle in Blandford.
-      </p>
-      <p>
-        We have invited artists (professional and amateur) to donate paintings
-        and works of art to be shown at a special Art Exhibition which will be
-        held at St Nicholas&apos; Church, Durweston on Saturday October 8th
-        starting at 7.00pm. During the evening each ticket holder will pick a
-        number from a lucky dip. That number will correspond with the same
-        number on one of the works of art, so that each ticket-holder will
-        receive a work of art to take home.{' '}
-        <strong>Drinks and snacks will be provided</strong>.
-      </p>
-      <p>
-        Tickets are £30 each (<strong>purchase via the link above</strong>) and
-        the number of tickets is limited to the number of works of art
-        displayed.{' '}
-        <strong>IT IS ESSENTIAL TO BUY A TICKET PRIOR TO THE EVENT</strong>. NO
-        TICKETS WILL BE SOLD ON THE DOOR.
-      </p>
-
       <h2 className={styles.pastEventsHeading}>Past events</h2>
+
+      <h3 className={styles.pastEvents}>BWG Art Event</h3>
+      <p>On October 8, 2022, the BWG ran a very successful artworks 'lucky dip' in Durweston Church</p>
 
       <h3 className={styles.pastEvents}>Choral Concert</h3>
       <p>
