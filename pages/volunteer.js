@@ -15,7 +15,7 @@ export default function Volunteer() {
         <li>
           Donating or becoming a regular sponsor (see{' '}
           <Link href='/donate'>
-            <a>Donate page</a>
+            Donate page
           </Link>
           )
         </li>
@@ -61,14 +61,14 @@ export default function Volunteer() {
         Please do also consider donation or sponsorship – for which please click
         on the{' '}
         <Link href='/donate'>
-          <a>Donate page</a>
+          Donate page
         </Link>{' '}
         link.
       </p>
       <p>
         For more information, visit the{' '}
         <Link href='/faq'>
-          <a>FAQ page</a>
+          FAQ page
         </Link>
         .
       </p>

@@ -10,15 +10,15 @@ const Header = () => {
       <div className={styles.wrapper}>
         <div className={styles.logoArea}>
           <Link href='/'>
-            <a>
-              <Image
-                src='/images/logo-without-text.png'
-                alt='Logo'
-                width={150}
-                height={135}
-                priority={true}
-              />
-            </a>
+
+            <Image
+              src='/images/logo-without-text.png'
+              alt='Logo'
+              width={150}
+              height={135}
+              priority={true}
+            />
+
           </Link>
         </div>
         <div className={styles.titleArea}>
