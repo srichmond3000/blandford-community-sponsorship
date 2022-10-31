@@ -8,11 +8,20 @@ export default function Home() {
       <p>
         The Blandford Welcome Group (BWG) is a group of local residents who are
         working together to help a refugee family to settle in Blandford and
-        rebuild their lives. The family will be classified as highly vulnerable,
-        and will come from a UN Refugee Camp near a conflict zone, possibly
-        originating from Syria, though they could come from the Ukraine, Africa
-        or anywhere: the BWG has no control regarding the family's origin.
-      </p>
+        rebuild their lives.</p>
+        <p>The family comprises two adults and three young children, and they are due 
+          to arrive in mid-December 2022. They are classified as highly vulnerable 
+          by the UN High Commission for Refugees. A home in Blandford is available 
+          for them to rent. Arabic is their second language.
+          </p>
+        <p>
+        The BWG is committed to supporting the family to become independent, 
+        assisting them for a period of two years (i.e. to end 2024), including providing 
+        language tuition, interpreting, and assisting with access to all necessary 
+        services, including healthcare, schooling and the Job Centre. They are eligible 
+        for all state services and benefits, have indefinite leave to stay and work in 
+        the UK, and will eventually have a pathway to British citizenship.
+        </p>
       <section className={styles.withBackground}></section>
       <section>
         <h2>How will we do this?</h2>
