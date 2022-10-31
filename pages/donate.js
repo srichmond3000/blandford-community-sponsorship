@@ -29,14 +29,14 @@ export default function Donate() {
         <p>
           See our{' '}
           <Link href='/privacy'>
-            <a>Privacy Policy page</a>
+            Privacy Policy page
           </Link>
           .
         </p>
         <p>
           For more information, visit the{' '}
           <Link href='/faq'>
-            <a>FAQ page</a>
+            FAQ page
           </Link>
           .
         </p>

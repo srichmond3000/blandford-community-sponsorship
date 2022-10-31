@@ -33,7 +33,7 @@ export default function Faq() {
         <p>
           When you click the Donate button, you are taken to the BWG’s{' '}
           <Link href='/donate'>
-            <a>Give a Little</a>
+            Give a Little
           </Link>{' '}
           online donation page. The payment facility is authorised and regulated
           by the Financial Conduct Authority. The money raised through this

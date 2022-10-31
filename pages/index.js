@@ -82,7 +82,7 @@ export default function Home() {
         <p>
           For more information, visit the{' '}
           <Link href='/faq'>
-            <a>FAQ page</a>
+            FAQ page
           </Link>
           .
         </p>
