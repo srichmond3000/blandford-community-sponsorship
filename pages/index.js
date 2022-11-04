@@ -26,7 +26,7 @@ export default function Home() {
       <section>
         <h2>How will we do this?</h2>
         <p>
-          We are part of the government’s Community Sponsorship Scheme for
+          We are part of the government&amp;s Community Sponsorship Scheme for
           refugees, joining over 100 other local community groups across the UK
           working to welcome a family to their town. Community Sponsorship is a
           pathway for a family to settle and gain rights in the UK.
