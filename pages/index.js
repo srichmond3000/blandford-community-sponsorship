@@ -9,10 +9,10 @@ export default function Home() {
         The Blandford Welcome Group (BWG) is a group of local residents who are
         working together to help a refugee family to settle in Blandford and
         rebuild their lives.</p>
-      <p>The family comprises two adults and three young children, and they are due
-        to arrive in mid-December 2022. They are classified as highly vulnerable
-        by the UN High Commission for Refugees. A home in Blandford is available
-        for them to rent. Arabic is their second language.
+      <p>The family, comprising parents and three young children, arrived in December 2022. 
+        They were classified as highly vulnerable by the UN High Commission for Refugees. 
+        They rent a home in Blandford, and the parents are keenly learning English. The 
+        eldest son is at primary school.
       </p>
       <p>
         The BWG is committed to supporting the family to become independent,
